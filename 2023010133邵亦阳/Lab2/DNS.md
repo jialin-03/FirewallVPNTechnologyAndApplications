@@ -128,13 +128,12 @@ gcc dns_lookup.c -o dns_lookup
 | :--------------------------- | :------------- |
 | 事务 ID（Transaction ID）    |        0xf6ab        |
 | 查询域名（Query Name）       |        www.baidu.com        |
-| 查询类型（Type）             |        10.251.167.145        |
+| 查询类型（Type）             |        A        |
 | 目的端口                     |        53        |
 
 **嵌入截图：**
 
 ![DNS 请求包截图](dns_req.png)
-![alt text](image-1.png)
 ---
 
 ### C. Wireshark 抓包结果：DNS 响应包（Response）
@@ -150,7 +149,6 @@ gcc dns_lookup.c -o dns_lookup
 **嵌入截图：**
 
 ![DNS 响应包截图](dns_resp.png)
-![alt text](image-2.png)
 ---
 
 ## 思考题
